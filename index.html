@@ -1,0 +1,888 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tercera aplicacion</title>
+
+    <!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema3.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+    
+    <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+    <style>
+	#b1
+	{ float:right;}
+	#b2
+	{ float:right;}
+	</style>
+</head><body onLoad="MM_preloadImages('imagenes/descarga.jpg','imagenes/descarga (1).jpg','imagenes/descarga (3).jpg','imagenes/caballo.jpg','imagenes/delfina.jpg','imagenes/lobos.jpg','imagenes/llamas.jpg','imagenes/orca1.jpg','imagenes/orca.jpg','imagenes/tiburon1.jpg','imagenes/con-icono.png','imagenes/bd.png','imagenes/ciclo_de_vida.jpg','imagenes/7.png','imagenes/pruebas-sistemas-beneficios.jpg','imagenes/images (4).jpg','imagenes/25.png','imagenes/images.jpg','imagenes/pract6-78910-18-638.jpg','imagenes/basic.png','imagenes/practicas-10-638.jpg','imagenes/231.png')">
+
+      <div data-role="page" id="Principal" data-theme="a">
+         <div data-role="header" data-add-back-btn="false" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+           <h1><p>Tutorial de</p><p>DSAUPOO</p> 
+           <p>CBTis16</p></h1>
+          </div>
+          
+                <div data-role="main" class="ui-content">   
+<div>
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Que Significa?</h2>
+
+          </a>
+</li>
+         <li class="ui-first-child ui ui-last-child">
+            <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Ciclo de vida de un sistema</h2>
+
+           </a>
+</li>
+      
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Introducción a la Programación Orientado a Objetos.</h2>
+
+                </a>
+            </li>
+            
+             <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Manejo del Software Visual Basic 2010</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>INTRODUCCION AL ANÁLISIS Y DISEÑO DE
+SISTEMAS</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Uso de componentes de Krypton y agregar iconos a los formularios e
+imágenes a los objetos con iconarchive.com</h2>
+
+                </a>
+            </li>
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Enlazando Bases de datos por medio de Active Data Object de Visual
+Basic</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Instrucciones básicas de SQL</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Proceso de Altas de datos</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Proceso de Bajas de datos</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Proceso para Modificación de datos</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Proceso para Consultas de datos</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina13" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Proceso para la creación de informes de datos</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina14" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Realización de Pruebas al Sistema de Información</h2>
+
+                </a>
+            </li>
+            
+            <li class="ui-fist-child ui-last-child">
+                <a href="#Pagina15" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                   <h2>Validar el Sistema de Información</h2>
+
+                </a>
+            </li>
+            </ul>
+            
+            
+            
+</div>
+          </div>
+          
+         
+<div data-role="collapsible" data-content-theme="false">
+             <h1>Datos del Desarrollador</h1>
+             <div>
+             <center>
+              <h2>Sebastian Rodrigiuez Cabrera</h2>
+              <h2>Programacion(Desarrollo de Aplicaciones Moviles)</h2>
+              <h3>Recursamiento</h3>
+              <h3>sebas1911@live.com.mx</h3>
+              <h2>Funciones</h2>
+              <p>Esta Aplicacion te mostrara los tipos de animales</p>
+              <h2>Docente</h2>
+              <h3>Lic.Jose Antonio Gomez Hernandez</h3>
+              <br>
+              
+              </center>
+              <div style="width:60%;">
+              <div id="b1">
+              <a href="https://www.facebook.com/sebastian.rodrigezcabrera" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">
+              Abre Feis</a>
+              </div>
+              <div id="b2">
+              <a href="https://damcbtis16.milaulas.com/" class="ui-btn ui-btn-corner-all ui-btn-inline" data-theme="a">  
+              Dam</a>
+              </div>
+              </div>
+       </div>
+              </div>
+              
+              <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/images_3.jpg" alt="images (3)" title="images (3)" id="wows1_0"/></li>
+		<li><img src="data1/images/28_2.png" alt="28 2" title="28 2" id="wows1_1"/></li>
+		<li><img src="data1/images/comp.jpg" alt="comp" title="comp" id="wows1_2"/></li>
+		<li><img src="data1/images/maxresdefault_1.jpg" alt="maxresdefault (1)" title="maxresdefault (1)" id="wows1_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/pract67891018638.jpg" alt="http://wowslider.com/" title="pract6-78910-18-638" id="wows1_4"/></a></li>
+		<li><img src="data1/images/sql.jpg" alt="sql" title="sql" id="wows1_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="images (3)"><span><img src="data1/tooltips/images_3.jpg" alt="images (3)"/>1</span></a>
+		<a href="#" title="28 2"><span><img src="data1/tooltips/28_2.png" alt="28 2"/>2</span></a>
+		<a href="#" title="comp"><span><img src="data1/tooltips/comp.jpg" alt="comp"/>3</span></a>
+		<a href="#" title="maxresdefault (1)"><span><img src="data1/tooltips/maxresdefault_1.jpg" alt="maxresdefault (1)"/>4</span></a>
+		<a href="#" title="pract6-78910-18-638"><span><img src="data1/tooltips/pract67891018638.jpg" alt="pract6-78910-18-638"/>5</span></a>
+		<a href="#" title="sql"><span><img src="data1/tooltips/sql.jpg" alt="sql"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+              
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <img src="imagenes/mdpi.png" width="38" height="38">
+<h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+            </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+              <h1>Que Significa?</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>
+                <h2>Significado</h2>
+<p>Desarrolla Software de Aplicación Utilizando Programación Orientada a Objetos-DSAUPOO
+</p>
+         
+<div class="ui-content" align="center">
+  <div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://bzgdesarrollodeaplicacionesmoviles.blogspot.mx/" data-role="button" id="beep" target="_self">
+    <h2>Mas Infomarmacion</h2>
+   </a>
+  </li>
+</ul>
+</div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/bd.png',1)"><img src="imagenes/hc.jpg" alt="" width="80%" height="80%" id="Image3"></a>
+         </div>
+              </div>
+            </div>
+            
+            <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/ciclo.png" alt="ciclo" title="ciclo" id="wows2_0"/></li>
+		<li><img src="data2/images/descarga_1.jpg" alt="descarga (1)" title="descarga (1)" id="wows2_1"/></li>
+		<li><img src="data2/images/descarga.jpg" alt="descarga" title="descarga" id="wows2_2"/></li>
+		<li><img src="data2/images/formulario_29.png" alt="formulario 29" title="formulario 29" id="wows2_3"/></li>
+		<li><a href="http://wowslider.net"><img src="data2/images/hqdefault.jpg" alt="jquery slideshow" title="hqdefault" id="wows2_4"/></a></li>
+		<li><img src="data2/images/images_4.jpg" alt="images (4)" title="images (4)" id="wows2_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="ciclo"><span><img src="data2/tooltips/ciclo.png" alt="ciclo"/>1</span></a>
+		<a href="#" title="descarga (1)"><span><img src="data2/tooltips/descarga_1.jpg" alt="descarga (1)"/>2</span></a>
+		<a href="#" title="descarga"><span><img src="data2/tooltips/descarga.jpg" alt="descarga"/>3</span></a>
+		<a href="#" title="formulario 29"><span><img src="data2/tooltips/formulario_29.png" alt="formulario 29"/>4</span></a>
+		<a href="#" title="hqdefault"><span><img src="data2/tooltips/hqdefault.jpg" alt="hqdefault"/>5</span></a>
+		<a href="#" title="images (4)"><span><img src="data2/tooltips/images_4.jpg" alt="images (4)"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+            
+            <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+            </div>
+          </div>
+          
+          
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+              <h1>Ciclo de vida de un sistema</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>
+                <h2>CONCEPTO</h2>
+<p>El ciclo de vida de un sistema de información es un enfoque por fases del análisis y diseño que sostiene que los sistemas son desarrollados de mejor manera mediante el uso de un ciclo especifico de actividades del analista y del usuario.Se divide en 6 fases.</p>
+<p>1.PLANIFICACIÓN</p>
+<p>La fase de planificación es la que nos permite conocer sobre el alcance que tendrá el proyecto, que puntos abarcara, los posibles riesgos que puede llegar a presentar y el orden en el cual se ejecutaran todas las tareas en el proceso de su creación.</p>
+<p>2.ANÁLISIS</p>
+<p>Esta fase es la que estudia las necesidades de información de los usuarios finales, constituyéndose la base del diseño de un sistema de información. En esta fase se plantean todos los por menores para poder obtenerlos resultados que se esperan o quieren.</p>
+<p>3.DISEÑO
+IMPLEMENTACIÓN</p>
+<p>Comprende la adquisición e integración de los recursos físicos y conceptuales, en esta fase se ejecutan todas las instalaciones y adiestramiento necesario para poder colocar el sistema en modo funcional.</p>
+
+<p>4.PASOS PARA EL ANÁLISIS</p>
+<p>Consiste en la descripción y determinación de los procesos y datos que requiere el nuevo sistema, el cómo se quiere el sistema, la forma en la que el sistema cumplirá con los requisitos identificados durante la fase de análisis.</p>
+<p>Preparación del diseño</p>
+<p>Identificación de alternativas del sistema</p>
+<p>Evaluación de las alternativas del sistema</p>
+<p>Selección de la mejor configuración</p>
+<p>Preparación de la propuesta de implementación</p>
+<p>Aprobación de la implementación del sistema</p>
+
+<p>5.INSTALACIÓN / DESPLIEGUE</p>
+<p>En la fase de instalación, es cuando se va a instalar el software en el hardware, este necesita uso y mantenimiento</p>
+<p>Mantenimiento adaptativo.</p>
+<p>Mantenimiento correctivo.</p>
+<p>Mantenimiento perfectivo.</p>
+<p>6.USO Y MANTENIMIENTO</p>
+<p>Esta es la etapa final del ciclo de desarrollo de sistemas. En esta fase se pone en ejecución todo el trabajo realizado por parte de analistas y usuarios, Comprende: supervisión, evaluación y modificación de un sistema en el momento que deje de ser efectivo para las nuevas tareas que ocurran en un futuro. 
+</p>
+
+
+
+<div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para ver un video</h1>
+             <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=kRvnQcQa4jU" data-role="button" id="beep" target="_self">
+    <h2>ver Video</h2>
+   </a>
+  </li>
+</ul>
+</div>
+              </div>
+
+
+
+
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://prezi.com/xgg3lawq17lb/ciclo-de-vida-de-un-sistema-de-informacion/" data-role="button" id="beep" target="_self">
+    <h2>Mas Infomarmacion</h2>
+   </a>
+  </li>
+</ul>
+</div>
+
+     </div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/ciclo_de_vida.jpg',1)"><img src="imagenes/ciclo.png" alt="" width="60%" height="60%" id="Image4"></a> 
+     </div>
+            </div>
+            <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+            </div>
+          </div>
+            
+            
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                 <h1>Introducción a la Programación Orientado a Objetos.</h1>
+              </div>
+            <div data-role="content" align="center">
+              <div>
+                 <h2>POO</h2>
+                <p>Cuando se escribe un programa de computacion en un
+lenguaje de programación orientado a objetos está creando
+en su computadora un modelo de alguna parte del mundo
+real.</p>
+<p>Las partes con que se construye el modelo provienen de los
+objetivos que aparecen en el dominio del problema.</p>
+<p>Estos objetos deben estar representados en el modelo
+computacional que se está creando.</p>
+<p>Un programa en Visual Studio, está formado por
+objetos que interactúan entre sí.
+Además estos objetos se usan para lograr un fin.</p>                
+                <h2>Clases y objetos</h2>
+           <p>Los objetos son la materia prima en un sistema orientado a objetos.</p>
+<p>Los objetos pueden ser vistos como mini abstracciones de componentes
+del mundo real.</p>
+<p>Los objetos pueden ser organizados y una clase describe, en forma
+abstracta, todos los objetos de un tipo en particular</p>     
+                
+<div data-role="collapsible" data-content-theme="false">
+        <h2>Conceptos fundamentales</h2>
+             <p>La POO es una forma de programar que trata de encontrar una solución a estos problemas. Introduce nuevos conceptos, que superan y amplían conceptos antiguos ya conocidos</p>
+<p>Clase</p>
+<p>Definiciones de las propiedades y comportamiento de un tipo de objeto concreto. La instanciación es la lectura de estas definiciones y la creación de un objeto a partir de ella.</p>
+<p>Herencia</p>
+<p>Por ejemplo, herencia de la clase C a la clase D, es la facilidad mediante la cual la clase D hereda en ella cada uno de los atributos y operaciones de C, como si esos atributos y operaciones hubiesen sido definidos por la misma D. Por lo tanto, puede usar los mismos métodos y variables registrados como "públicos" (public) en C. Los componentes registrados como "privados" (private) también se heredan pero se mantienen escondidos al programador y sólo pueden ser accedidos a través de otros métodos públicos. Para poder acceder a un atributo u operación de una clase en cualquiera de sus subclases pero mantenerla oculta para otras clases es necesario registrar los componentes como "protegidos" (protected), de esta manera serán visibles en C y en D pero no en otras clases.</p>
+<p>Objeto</p>
+<p>Instancia de una clase. Entidad provista de un conjunto de propiedades o atributos (datos) y de comportamiento o funcionalidad (métodos), los mismos que consecuentemente reaccionan a eventos. Se corresponden con los objetos reales del mundo que nos rodea, o con objetos internos del sistema (del programa).</p>
+<p>Método</p>
+<p>Algoritmo asociado a un objeto (o a una clase de objetos), cuya ejecución se desencadena tras la recepción de un "mensaje". Desde el punto de vista del comportamiento, es lo que el objeto puede hacer. Un método puede producir un cambio en las propiedades del objeto, o la generación de un "evento" con un nuevo mensaje para otro objeto del sistema.</p>
+<p>Evento</p>
+<p>Es un suceso en el sistema (tal como una interacción del usuario con la máquina, o un mensaje enviado por un objeto). El sistema maneja el evento enviando el mensaje adecuado al objeto pertinente. También se puede definir como evento la reacción que puede desencadenar un objeto; es decir, la acción que genera.</p>
+<p>Atributos</p>
+<p>Características que tiene la clase.</p>
+<p>Mensaje</p>
+<p>Una comunicación dirigida a un objeto, que le ordena que ejecute uno de sus métodos con ciertos parámetros asociados al evento que lo generó.</p>
+<p>Propiedad o atributo</p>
+<p>Contenedor de un tipo de datos asociados a un objeto (o a una clase de objetos), que hace los datos visibles desde fuera del objeto y esto se define como sus características predeterminadas, y cuyo valor puede ser alterado por la ejecución de algún método.</p>
+<p>Estado interno</p>
+<p>Es una variable que se declara privada, que puede ser únicamente accedida y alterada por un método del objeto, y que se utiliza para indicar distintas situaciones posibles para el objeto (o clase de objetos). No es visible al programador que maneja una instancia de la clase.</p>
+<p>Componentes de un objeto</p>
+<p>Atributos, identidad, relaciones y métodos.</p>
+<p>Identificación de un objeto</p>
+<p>Un objeto se representa por medio de una tabla o entidad que esté compuesta por sus atributos y funciones correspondientes.</p>
+              </div>
+                
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos" data-role="button" id="beep" target="_self">
+    <h2>Mas Infomarmacion</h2>
+   </a>
+  </li>
+</ul>
+</div>
+
+ </div>
+                 
+               </div>
+            </div>
+            <div data-role="footer" data-theme="a" data-position="fixed">
+               <h4>Aplicacion Tres,Sebastian Rodriguez Cabrera</h4>
+              </div>
+              </div>
+              
+              
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Manejo del Software Visual Basic 2010</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Visual Basic</h2>
+                     <p>Bienvenidos a la nueva versión de Visual Basic para el 2008. Como su nombre implica,
+Visual Basic es una forma visual para crear nuevos programas de Microsoft
+La familia Windows de sistemas operativos.</p>
+
+<p>Y aunque es básico en muchos sentidos, el lenguaje Visual Basic es también muy
+de gran alcance. Usted puede crear nuevas bibliotecas de clases y servicios Web XML, así
+como los programas que puede utilizar en su PC o el explorador Web, o incluso su
+teléfono o PDA. Todo lo que se puede hacer en Windows se puede hacer en Visual
+Básica.</p>
+
+<p>Programación en Visual Basic es más fácil de lo que piensas, gracias a la
+herramientas visuales proporcionados por Visual Studio. Usted no tiene que escribir la línea tras línea
+de código para crear un programa de trabajo - Visual Studio genera automáticamente
+algo de código para que al arrastrar y soltar los componentes de las herramientas visuales.
+Por supuesto, ser capaz de leer y escribir código es importante, también, y este libro
+ofrece un montón de ejemplos de código para que pueda entender lo interno de trabajo
+nes de sus programas.
+</p>
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Un Poco mas de informacion</h1>
+             <p>Visual Basic 2008: El lenguaje de programación descrito a lo largo
+este libro. Ya no se puede ejecutar o cargar Visual Basic como una sepa-
+tasa de entidad. Se trata simplemente de un lenguaje de programación que se dirige a la
+Microsoft. NET Framework, que es el término siguiente de la lista.</p>
+<p>. NET Framework: La capa que se encuentra entre la lengua (en este caso,
+Visual Basic) y el sistema operativo, que puede ser Windows 98,
+Windows Me, Windows 2000, Windows XP, Windows Server 2003, o cualquier
+de las subversiones de aquellos (como la edición Tablet PC). El NET.
+Marco de capa sirve para proporcionar la funcionalidad basada en la operación
+del sistema de Windows en la que reside, así como para proporcionar bibliotecas
+para otras funciones (como cálculos matemáticos y acceso a base de datos).
+</p>
+              </div>
+
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/7.png',1)"><img src="imagenes/2.png" alt="" width="50%" height="50%" id="Image5"></a> 
+                   </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>INTRODUCCION AL ANÁLISIS Y DISEÑO DE
+SISTEMAS.</h1>
+                 </div>
+                 <div data-role="content">
+                   <div>
+                      <h2>Analisis</h2>
+                     <p>Un proyecto de sistema o software, es el proceso de gestión para la creación de un
+sistema de información el cual encierra un conjunto de actividades, estas actividades
+son:</p>
+<p>• El Análisis, este comprende examinar la situación de un sistema mediante un
+conjunto de métodos y procedimientos, además el análisis permite reemplazar,
+mejorar y/o reorganizar un sistema.</p>
+<p>• El Diseño. significa el desarrollo y/o elaboración de los procesos planificados
+durante la fase de análisis.</p>
+<p>• El Diseño de Sistemas. Planifica, reemplaza y/o complementa un sistema
+mediante un conjunto de métodos y medios, en base a un previo análisis del
+sistema.</p>
+<p>Se define a un Sistema, como un Conjunto de elementos que interactúan con un objetivo
+común.</p>
+<p>Las Características que debe cumplir un sistema son:</p>
+<p> Se desarrollan en su propio medio ambiente.</p>
+<p> Poseen subsistemas.</p>
+<p> Contienen medidas de control.</p>
+<p>FUNCION DEL ANÁLISIS DE SISTEMAS.</p>
+<p>La función del análisis es dar soporte a las actividades de un negocio, o desarrollar un
+producto que pueda venderse para generar beneficios.</p>
+<p>Para conseguir este objetivo, un Sistema basado en computadoras utiliza seis (6)
+elementos fundamentales:</p>
+<p>1. Software. Son los programas de computadora con estructuras de datos y su
+documentación que hacen efectiva los requerimientos del sistema.</p>
+<p>2. Hardware. Son los Dispositivos electrónicos y electromecánicos, que
+proporcionan capacidad de cálculos y funciones exactas y efectivas dentro de un
+sistema de información, por ejemplo las computadoras, sensores, maquinaria,
+bombas, lectores, etc.</p>
+<p>3. Personal. Son los Operadores o usuarios directos de las herramientas del sistema.</p>
+<p>4. Base de datos. Es la colección de información organizada y enlazada al sistema
+a las que se accede por medio del software.</p>
+<p>5. Documentación. Son los manuales, reportes y cualquier otra información
+descriptiva que detalla el empleo y operación del sistema o programa.</p>
+<p>6. Procedimientos. Son los pasos que definen el uso específico de cada uno de los
+elementos o componentes del sistema así como las reglas de manejo y
+mantenimiento.</p>
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para mas informacion</h1>
+             <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://es.slideshare.net/KTIKBYA/anlisis-y-desarrollo-de-sistemas-de-informacin" data-role="button" id="beep" target="_self">
+    <h2>Ver Pagina</h2>
+   </a>
+  </li>
+</ul>
+</div>
+              </div>
+
+                      
+                   </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1><p>Uso de componentes de Krypton y agregar iconos</p> <p>a los formularios e
+imágenes a los</p> <p>objetos con iconarchive.com</p></h1>
+
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Icon archive</h2>
+                     <p>Con está página colocaremos los iconos a las formularios de las Soluciones en VB2010, haremos lo siguiente:</p>
+<p>Abrir la pagina de iconarchive.com</p>
+<p>Escribir en ingles, el tema del icono que vamos a colocar y dar click en el botón search</p>
+<p>Seleccionar la imagen que utilizaremos y dar clic en la palabra .ico que aparece arriba</p>
+<p>Automáticamente se "bajara" el archivo, el cual lo copiaremos a la carpeta de la solución</p>
+<p>Se abre la solución en VB2010, se selecciona el objeto form</p>
+<p>Se selecciona la propiedad icon y se da clic en el cuadro de los 3 puntos para examinar</p>
+<p>Se busca el archivo del icono que esta en la carpeta de la solución y se da clic en Abrir</p>
+<p>Ahora revisa el formulario y ya tiene el nuevo icono.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/con-icono.png',1)"><img src="imagenes/sin-icono.png" alt="" width="397" height="93" id="Image2"></a>
+<div data-role="collapsible" data-content-theme="false">
+        <h1>Pulsa aqui abrir la pagina</h1>
+             <div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.iconarchive.com/search?q=calculator" data-role="button" id="beep" target="_self">
+    <h2>La pagina</h2>
+   </a>
+  </li>
+</ul>
+ </div>
+              </div>
+                     
+                     
+                     
+                     
+<div data-role="main" class="ui-content" align="center">
+  
+</div>
+
+                      
+                   </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Enlazando Bases de datos por medio de Active Data Object de Visual
+Basic</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Base de datos</h2>
+                     
+                     
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para ver un video</h1>
+             <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=ac9DysItgx4" data-role="button" id="beep" target="_self">
+    <h2>ver Video</h2>
+   </a>
+  </li>
+</ul>
+</div>
+              </div>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/images.jpg',1)"><img src="imagenes/231.png" width="603" height="521" id="Image9"></a>
+                   </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Instrucciones básicas de SQL</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>SQL</h2>
+                     <p>Introducción</p>
+<p>El lenguaje de consulta estructurado o SQL (por sus siglas en inglés Structured Query Language) es un lenguaje declarativo de acceso a bases de datos relacionales que permite especificar diversos tipos de operaciones en ellas. Una de sus características es el manejo del álgebra y el cálculo relacional que permiten efectuar consultas con el fin de recuperar de forma sencilla información de interés de bases de datos, así como hacer cambios en ella.</p>
+
+<p>El SQL es un lenguaje de acceso a bases de datos que explota la flexibilidad y potencia de los sistemas relacionales y permite así gran variedad de operaciones.</p>
+
+<p>Componentes del SQL</p>
+<p>El lenguaje SQL está compuesto por comandos, cláusulas, operadores y funciones de agregado. Estos elementos se combinan en las instrucciones para crear, actualizar y manipular las bases de datos.</p>
+                     
+                     
+                     
+<div data-role="main" class="ui-content" align="center">
+  <div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://geotalleres.readthedocs.io/es/latest/conceptos-sql/conceptos_sql.html" data-role="button" id="beep" target="_self">
+    <h2>Mas Infomarmacion</h2>
+   </a>
+  </li>
+</ul>
+ </div>
+</div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/25.png',1)"><img src="imagenes/sql.jpg" alt="" width="50%" height="50%" id="Image8"></a> 
+</div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Proceso de Altas de datos</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Altas</h2>
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para ver un video</h1>
+             <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=gj8z2frHKyQ" data-role="button" id="beep" target="_self">
+    <h2>ver Video</h2>
+   </a>
+  </li>
+</ul>
+</div>
+
+              </div>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/231.png',1)"><img src="imagenes/25.png" width="50%" height="50%" id="Image14"></a> </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Proceso de Bajas de datos</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Bajas</h2>
+                     
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para ver un video</h1>
+             <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=Q_mg71qp_SE&feature=youtu.be" data-role="button" id="beep" target="_self">
+    <h2>ver Video</h2>
+   </a>
+  </li>
+</ul>
+</div>
+              </div>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/231.png',1)"><img src="imagenes/Netbeans.png" width="50%" height="50%" id="Image13"></a> </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Proceso para Modificación de datos</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Modificacion</h2>
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para ver un video</h1>
+              <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=-fB4l1T12rk" data-role="button" id="beep" target="_self">
+    <h2>ver Video</h2>
+   </a>
+  </li>
+</ul>
+</div>
+              </div>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/practicas-10-638.jpg',1)"><img src="imagenes/basic.png" width="50%" height="50%" id="Image12"></a> </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina12" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Proceso para Consultas de datos</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Consulta</h2>
+                     
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para ver un video</h1>
+             <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=RJcY-HH9dAU" data-role="button" id="beep" target="_self">
+    <h2>ver Video</h2>
+   </a>
+  </li>
+</ul>
+</div>
+              </div>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/basic.png',1)"><img src="imagenes/28 2.png" width="50%" height="50%" id="Image11"></a> </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina13" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Proceso para la creación de informes de datos</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Creacion</h2>
+                     
+                     
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para ver un video</h1>
+             <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.youtube.com/watch?v=A-L-jWDTU6U" data-role="button" id="beep" target="_self">
+    <h2>ver Video</h2>
+   </a>
+  </li>
+</ul>
+</div>
+              </div>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/pract6-78910-18-638.jpg',1)"><img src="imagenes/visual.png" width="50%" height="50%" id="Image10"></a> </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina14" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Realización de Pruebas al Sistema de Información</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Sistema de Pruebas</h2>
+                     <p>Un sistema de pruebas implica la operacion o aplicacion del mismo a traves de condiciones controladas y la consiguiente evaluacion de la informacion. las condiciones controladas deben incluir tanto situaciones normales como anormales. El objetivo del sistema de pruebas es encontrar un error para determinar situaciones en donde algo pasa cuando no debe de pasar y viceversa. En una palabra, un sistema de pruebas esta orientado a detectar</p>
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para mas informacion</h1>
+             <div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://catarina.udlap.mx/u_dl_a/tales/documentos/lis/moreno_a_jl/capitulo5.pdf" data-role="button" id="beep" target="_self">
+    <h2>Mas Informacion</h2>
+   </a>
+  </li>
+</ul>
+ </div>
+              </div>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/images (4).jpg',1)"><img src="imagenes/poo.jpg" alt="" width="60%" height="60%" id="Image7"></a> 
+                   </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+                 
+                 <div data-role="page" id="Pagina15" data-add-back-btn="true" data-theme="a">
+                 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+                     <h1>Validar el Sistema de Información</h1>
+                 </div>
+                 <div data-role="content" align="center">
+                   <div>
+                      <h2>Validación:</h2>
+                     <p>Es la actividad que busca asegurar si el software creado se ajusta a los requisitos requeridos. ( ¿Estamos construyendo el producto correcto?)....
+En el proceso de validación ; las inspecciones y pruebas de software son complementarias para el análisis y comprobación del sistema
+inspecciones de software;
+analizan y comprueban las representaciones del sistema: el documento de requerimientos, los diagramas de diseño y el código fuente del programa, las inspecciones pueden ser complementadas con algún análisis automático del código fuente de un sistema</p>
+<p>Las pruebas del software; 
+implican ejecutar una implementación del software con datos de prueba , se examinan las salidas y entorno operacional de software para comprobar que funciona tal y como se requiere.</p>
+                     <div data-role="collapsible" data-content-theme="false">
+             <h1>Pulsa aqui para ver mas informacion</h1>
+             <div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://prezi.com/gxj16_2khrwi/validacion-de-un-sistema-de-informacion/" data-role="button" id="beep" target="_self">
+    <h2>Mas Informacion</h2>
+   </a>
+  </li>
+</ul>
+ </div>
+              </div>
+                   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/pruebas-sistemas-beneficios.jpg',1)"><img src="imagenes/vali.jpg" alt="" width="50%" height="50%" id="Image6"></a> 
+                   </div>
+                 </div>
+                              
+
+                 <div data-role="footer" data-theme="a" data-position="fixed">
+                    <h4>Aplicacion Tres, Sebastian Rodriguez Cabrera</h4>
+                 </div>
+                 </div>
+</body>
+</html>
